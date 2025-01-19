@@ -24,7 +24,6 @@ const Signup = () => {
 
       const onSubmit = (data) => {
 
-        console.log("==============>", data);
         const userInfo = {
             name: data.name,
             email: data.email,
