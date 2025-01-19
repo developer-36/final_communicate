@@ -1,8 +1,8 @@
 import Left from "./home/left/Left";
 import Right from "./home/right/Right";
 import LeftLogout from "./home/left_logout/LeftLogout";
-import Signup from "./components/shared/signup";
-import Login from "./components/shared/Login";
+import Signup from "./components/shared/signup.jsx";
+import Login from "./components/shared/Login.jsx";
 import { useAuth } from "./context/AuthProvider.jsx";
 import {Routes, Route, Navigate} from "react-router-dom"
 import { Toaster } from 'react-hot-toast';
