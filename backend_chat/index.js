@@ -12,7 +12,7 @@ dotenv.config();
 
 app.use(express.json());
 app.use(cors({
-    origin: 'http://localhost:4001', // Allow this specific origin
+    origin: 'https://final-communicate.onrender.com/', // Allow this specific origin
     credentials: true, // Allow cookies and other credentials
   }));
 app.use(cookieParser());

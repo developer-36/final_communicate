@@ -15,7 +15,7 @@ export const UseSocketContext = () =>{
 
     useEffect(()=>{
         if (authUser) {
-            const socket = io("http://localhost:5002/", {
+            const socket = io("https://final-communicate.onrender.com/", {
                 query:{
                     userId: authUser.userId,
                 }
